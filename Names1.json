@@ -1,0 +1,22 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const myelement = ( <
+    ul className = "names-list" >
+    <
+    li > Suncana < /li> <
+    li > Maria < /li> <
+    li > Niko < /li> <
+    li > Marko < /li> <
+    li > Daniel < /li> <
+    li > Lana < /li> <
+    li > Janko < /li> <
+    li > Mia < /li> <
+    li > Valentina < /li> <
+    li > Ana < /li> < <
+    /ul>
+);
+
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(myelement);
