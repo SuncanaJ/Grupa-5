@@ -1,0 +1,48 @@
+.example-div {
+    height: 200px;
+    width: 250px;
+}
+
+.static {
+    background-color: darkkhaki;
+    position: static;
+}
+
+.relative {
+    background-color: cyan;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.absolute {
+    background-color: violet;
+    position: absolute;
+    top: 40px;
+    right: 55px;
+}
+
+.parent {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: grey;
+}
+
+.fixed {
+    background-color: crimson;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.filler {
+    width: 50px;
+    height: 3000px;
+}
+
+.sticky {
+    background-color: steelblue;
+    position: sticky;
+    top: 0;
+}
